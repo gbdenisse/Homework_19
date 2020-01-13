@@ -1,0 +1,125 @@
+/* Google Font */
+body {
+    font-family: 'Montserrat', sans-serif!important;
+}
+/* Navigation */
+.nav-link  {
+    color: black!important;
+}
+.navbar-brand{
+    color: #5583A6!important;
+    font-weight: bolder;
+}
+.nav-link:hover{
+    color: #5583A6!important;
+}
+/* Jumbotron */
+.jumbotron{ 
+    color: white;
+    background-color: #5583A6!important;
+}
+/* About Me */
+#AboutMe{
+    text-align: center;
+    color: #5583A6;
+    font-weight: bolder;
+}
+.mypicture{
+    width:80%;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+@keyframes float {
+0% {
+	transform: translatey(0px);
+	}
+	50% {
+	transform: translatey(-20px);
+	}
+	100% {
+	transform: translatey(0px);
+	}
+}
+.col-md-4 {
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float 2s ease-in-out infinite;
+}
+.card-title{
+    padding-left: 3%;
+}
+/* Cards */
+#MyWork{
+    text-align: center;
+    color: #5583A6;
+    font-weight: bold;
+}
+.card{
+    border: none!important;
+}
+.btn{
+    background-color: #9E636B!important;
+    border: 0 none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn:hover {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+.cardcontainer h3{
+    color: #5583A6;
+}
+.btn-primary:hover {
+    background-color:rgb(110, 69, 75)!important;
+}
+
+/* List */
+.list-group-item-heading{
+    font-weight: bold;
+}
+.SkillsTitle{
+    text-align: center;
+    color: #5583A6;
+    font-weight: bold;
+}
+/* Form */
+#MyForm{
+    text-align: center;
+    color: #5583A6;
+    font-weight: bold;
+}
+.btn2{
+    background-color: #9E636B!important;
+    border: 0 none;
+}
+/* Modal */
+.btn-default{
+    color: white;
+}
+.btn-default:hover{
+    color: white;
+}
+.modal-content{
+    border-radius: 0;
+    background-clip: border-box;
+}
+.modal-footer {
+    border-top: 0 none;
+}
+/* Footer */
+#footer {
+    background-color: #5583A6;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    
+  }
+  .blockquote-footer{
+    color: white;
+  }
+ 
